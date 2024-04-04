@@ -26,7 +26,7 @@ O padrão Facade é utilizado para fornecer uma interface unificada simplificada
 - O padrão Strategy é aplicado na camada de serviço, onde definimos uma interface que especifica os métodos para operações de cadastro de clientes. Em seguida, implementamos várias estratégias (ou serviços) concretos que realizam a persistência dos dados em diferentes fontes, como em memória ou em um banco de dados. Isso permite trocar facilmente a estratégia de persistência sem modificar o código do cliente.
 
 ### Facade
-- Na camada de controle, utilizamos o padrão Facade para fornecer uma interface simplificada para a API de cadastro de clientes. Através dessa fachada, os clientes podem interagir com o subsistema de cadastro de forma transparente, sem precisar lidar diretamente com a complexidade das integrações com a API ViaCEP ou com a lógica de persistência.
+-  Utilizamos o padrão Facade para fornecer uma interface simplificada para a API de cadastro de clientes. Através dessa fachada, os clientes podem interagir com o subsistema de cadastro de forma transparente, sem precisar lidar diretamente com a complexidade das integrações com a API ViaCEP ou com a lógica de persistência.
 
 ---
 
